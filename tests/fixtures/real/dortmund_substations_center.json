@@ -1,0 +1,629 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.4 2390de5a",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-27T18:36:06Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "way",
+  "id": 22964137,
+  "center": {
+    "lat": 51.4567225,
+    "lon": 7.4164981
+  },
+  "tags": {
+    "access": "no",
+    "frequency": "50",
+    "location": "outdoor",
+    "name": "Station Kruckel",
+    "operator": "Amprion;Westnetz",
+    "power": "substation",
+    "substation": "transmission",
+    "voltage": "110000"
+  }
+},
+{
+  "type": "way",
+  "id": 24414688,
+  "center": {
+    "lat": 51.5322168,
+    "lon": 7.5222484
+  },
+  "tags": {
+    "access": "no",
+    "barrier": "fence",
+    "frequency": "50",
+    "name": "Station Wambel",
+    "note": "Umbau 2010",
+    "operator": "Amprion",
+    "operator:wikidata": "Q477318",
+    "operator:wikipedia": "de:Amprion",
+    "power": "substation",
+    "source": "Yahoo",
+    "substation": "transmission",
+    "voltage": "220000;110000"
+  }
+},
+{
+  "type": "way",
+  "id": 24667346,
+  "center": {
+    "lat": 51.4015378,
+    "lon": 7.5067014
+  },
+  "tags": {
+    "access": "no",
+    "location": "outdoor",
+    "name": "Garenfeld",
+    "operator": "ENERVIE Vernetzt GmbH",
+    "operator:wikidata": "Q1341587",
+    "operator:wikipedia": "de:Enervie",
+    "power": "substation",
+    "substation": "transmission",
+    "voltage": "220000",
+    "wikidata": "Q53055266"
+  }
+},
+{
+  "type": "way",
+  "id": 24850727,
+  "center": {
+    "lat": 51.5424305,
+    "lon": 7.4548419
+  },
+  "tags": {
+    "access": "no",
+    "barrier": "fence",
+    "frequency": "50",
+    "name": "Station Eving",
+    "operator": "DSW21",
+    "power": "substation",
+    "source": "aerial imagery",
+    "voltage": "110000"
+  }
+},
+{
+  "type": "way",
+  "id": 24850805,
+  "center": {
+    "lat": 51.5182854,
+    "lon": 7.4358110
+  },
+  "tags": {
+    "access": "yes",
+    "barrier": "fence",
+    "disused": "yes",
+    "frequency": "50",
+    "name": "Union",
+    "operator": "Westnetz",
+    "operator:wikidata": "Q2807462",
+    "operator:wikipedia": "de:Westnetz",
+    "power": "substation",
+    "source": "aerial imagery",
+    "substation": "transmission",
+    "voltage": "110000"
+  }
+},
+{
+  "type": "way",
+  "id": 24858617,
+  "center": {
+    "lat": 51.5351653,
+    "lon": 7.5000905
+  },
+  "tags": {
+    "access": "no",
+    "barrier": "fence",
+    "frequency": "50",
+    "name": "Station Ratsbusch",
+    "operator": "Amprion",
+    "operator:wikidata": "Q477318",
+    "operator:wikipedia": "de:Amprion",
+    "power": "substation",
+    "substation": "industrial",
+    "voltage": "220000;110000",
+    "wikidata": "Q58175347"
+  }
+},
+{
+  "type": "way",
+  "id": 26737074,
+  "center": {
+    "lat": 51.4471212,
+    "lon": 7.3573397
+  },
+  "tags": {
+    "image": "https://web.archive.org/web/20190302175521if_/https://images.mapillary.com/_ryCW0hAuoGuyhl4MsLLVQ/thumb-2048.jpg",
+    "landuse": "commercial",
+    "mapillary": "831940964196941",
+    "name": "Umspannanlage Annen",
+    "operator": "AVU AG",
+    "operator:abbr": "AVU",
+    "operator:wikidata": "Q422118",
+    "power": "substation",
+    "voltage": "110000"
+  }
+},
+{
+  "type": "way",
+  "id": 29026408,
+  "center": {
+    "lat": 51.4848463,
+    "lon": 7.5161141
+  },
+  "tags": {
+    "access": "no",
+    "addr:city": "Dortmund",
+    "addr:housenumber": "178",
+    "addr:postcode": "44263",
+    "addr:street": "Hörder Phoenixseeallee",
+    "barrier": "fence",
+    "frequency": "50",
+    "location": "outdoor",
+    "name": "Umspannwerk Hörde",
+    "operator": "RWE",
+    "operator:wikidata": "Q138133",
+    "operator:wikipedia": "de:RWE",
+    "power": "substation",
+    "substation": "distribution",
+    "voltage": "110000"
+  }
+},
+{
+  "type": "way",
+  "id": 31143512,
+  "center": {
+    "lat": 51.4089146,
+    "lon": 7.4618243
+  },
+  "tags": {
+    "access": "no",
+    "addr:city": "Hagen",
+    "addr:country": "DE",
+    "addr:housenumber": "35",
+    "addr:postcode": "58089",
+    "addr:street": "Uhlenbruch",
+    "barrier": "fence",
+    "frequency": "16.7",
+    "location": "outdoor",
+    "name": "Unterwerk Hagen",
+    "note": "Auf Schild am Tor steht 'Hagen-Hengstey'",
+    "operator": "DB Energie",
+    "operator:wikidata": "Q1152043",
+    "power": "substation",
+    "railway:ref": "IEHG",
+    "substation": "traction",
+    "voltage": "110000;15000"
+  }
+},
+{
+  "type": "way",
+  "id": 35763480,
+  "center": {
+    "lat": 51.4466139,
+    "lon": 7.3132851
+  },
+  "tags": {
+    "alt_name": "Umspannwerk Witten-Krone",
+    "barrier": "fence",
+    "frequency": "50",
+    "name": "Witten",
+    "operator": "Amprion",
+    "operator:wikidata": "Q477318",
+    "power": "substation",
+    "substation": "transmission",
+    "voltage": "380000"
+  }
+},
+{
+  "type": "way",
+  "id": 35763481,
+  "center": {
+    "lat": 51.4455251,
+    "lon": 7.3156116
+  },
+  "tags": {
+    "alt_name": "Umspannwerk Witten-Krone",
+    "barrier": "fence",
+    "frequency": "50",
+    "name": "Station Witten",
+    "operator": "Westnetz",
+    "operator:wikidata": "Q2807462",
+    "power": "substation",
+    "substation": "transmission",
+    "voltage": "110000"
+  }
+},
+{
+  "type": "way",
+  "id": 52524033,
+  "center": {
+    "lat": 51.4658330,
+    "lon": 7.4600181
+  },
+  "tags": {
+    "access": "private",
+    "barrier": "fence",
+    "frequency": "50",
+    "location": "indoor",
+    "name": "Station Kirchhörde",
+    "operator": "DONetz",
+    "power": "substation",
+    "substation": "transmission",
+    "voltage": "110000"
+  }
+},
+{
+  "type": "way",
+  "id": 52527278,
+  "center": {
+    "lat": 51.5372834,
+    "lon": 7.5324710
+  },
+  "tags": {
+    "access": "no",
+    "barrier": "fence",
+    "frequency": "16.7",
+    "location": "outdoor",
+    "name": "Unterwerk Scharnhorst",
+    "official_name": "Unterwerk Dortmund-Scharnhorst",
+    "operator": "DB Energie",
+    "operator:wikidata": "Q1152043",
+    "operator:wikipedia": "de:DB Energie",
+    "power": "substation",
+    "railway:ref": "IEDSH",
+    "source": "Yahoo",
+    "substation": "traction",
+    "voltage": "110000;15000"
+  }
+},
+{
+  "type": "way",
+  "id": 52698907,
+  "center": {
+    "lat": 51.5105946,
+    "lon": 7.4005943
+  },
+  "tags": {
+    "access": "no",
+    "addr:city": "Dortmund",
+    "addr:country": "DE",
+    "addr:housenumber": "131",
+    "addr:postcode": "44379",
+    "addr:street": "Heyden-Rynsch-Straße",
+    "frequency": "16.7",
+    "location": "outdoor",
+    "name": "Unterwerk Dortmund",
+    "operator": "DB Energie",
+    "operator:wikidata": "Q1152043",
+    "operator:wikipedia": "de:DB Energie",
+    "power": "substation",
+    "railway:ref": "IEDO",
+    "source": "aerial imagery",
+    "substation": "traction",
+    "voltage": "110000;15000"
+  }
+},
+{
+  "type": "way",
+  "id": 52698910,
+  "center": {
+    "lat": 51.4875923,
+    "lon": 7.3913163
+  },
+  "tags": {
+    "access": "no",
+    "barrier": "fence",
+    "frequency": "50",
+    "name": "Station Technopark",
+    "operator": "DEW21",
+    "power": "substation",
+    "source": "aerial imagery",
+    "voltage": "110000"
+  }
+},
+{
+  "type": "way",
+  "id": 52705458,
+  "center": {
+    "lat": 51.5096035,
+    "lon": 7.4021547
+  },
+  "tags": {
+    "access": "no",
+    "barrier": "fence",
+    "frequency": "50",
+    "name": "Dorstfeld",
+    "operator": "Westnetz",
+    "operator:wikidata": "Q2807462",
+    "operator:wikipedia": "de:Westnetz",
+    "power": "substation",
+    "source": "aerial imagery",
+    "voltage": "110000"
+  }
+},
+{
+  "type": "way",
+  "id": 53560654,
+  "center": {
+    "lat": 51.5338221,
+    "lon": 7.4328782
+  },
+  "tags": {
+    "name": "Hafen",
+    "operator": "Westnetz",
+    "operator:wikidata": "Q2807462",
+    "operator:wikipedia": "de:Westnetz",
+    "power": "substation",
+    "substation": "distribution",
+    "voltage": "110000"
+  }
+},
+{
+  "type": "way",
+  "id": 53560665,
+  "center": {
+    "lat": 51.5436091,
+    "lon": 7.4455636
+  },
+  "tags": {
+    "barrier": "fence",
+    "power": "substation",
+    "source": "aerial imagery",
+    "substation": "industrial",
+    "voltage": "110000"
+  }
+},
+{
+  "type": "way",
+  "id": 57682936,
+  "center": {
+    "lat": 51.5185759,
+    "lon": 7.4758469
+  },
+  "tags": {
+    "operator": "Westnetz",
+    "operator:wikidata": "Q2807462",
+    "operator:wikipedia": "de:Westnetz",
+    "power": "substation",
+    "source": "HiRes aerial imagery",
+    "substation": "distribution",
+    "voltage": "110000"
+  }
+},
+{
+  "type": "way",
+  "id": 67187076,
+  "center": {
+    "lat": 51.4915879,
+    "lon": 7.3001733
+  },
+  "tags": {
+    "name": "Station Robert Müser",
+    "note": "ein 110/5kV-Trafo",
+    "operator": "Westnetz",
+    "power": "substation",
+    "substation": "transmission",
+    "voltage": "110000"
+  }
+},
+{
+  "type": "way",
+  "id": 74059882,
+  "center": {
+    "lat": 51.4319799,
+    "lon": 7.3243748
+  },
+  "tags": {
+    "building": "service",
+    "building:colour": "blue",
+    "building:levels": "2",
+    "name": "Schalthaus 1",
+    "operator": "Deutsche Edelstahlwerke",
+    "operator:abbr": "DEW",
+    "operator:type": "private",
+    "operator:wikidata": "Q1202318",
+    "power": "substation",
+    "roof:colour": "silver",
+    "roof:shape": "flat",
+    "voltage": "110000"
+  }
+},
+{
+  "type": "way",
+  "id": 82162837,
+  "center": {
+    "lat": 51.4532172,
+    "lon": 7.5430419
+  },
+  "tags": {
+    "area": "yes",
+    "barrier": "fence",
+    "name": "Station Holzen Mast 30",
+    "note": "Übergang Leitung Holzen auf Erdkabel",
+    "operator": "RWE",
+    "operator:wikidata": "Q138133",
+    "operator:wikipedia": "de:RWE",
+    "power": "substation",
+    "substation": "transition",
+    "voltage": "110000"
+  }
+},
+{
+  "type": "way",
+  "id": 253173351,
+  "center": {
+    "lat": 51.4035597,
+    "lon": 7.5086047
+  },
+  "tags": {
+    "barrier": "fence",
+    "power": "substation",
+    "substation": "transition",
+    "voltage": "110000"
+  }
+},
+{
+  "type": "way",
+  "id": 698870101,
+  "center": {
+    "lat": 51.4107325,
+    "lon": 7.4528296
+  },
+  "tags": {
+    "frequency": "50",
+    "location": "outdoor",
+    "power": "substation",
+    "substation": "generation",
+    "voltage": "220000"
+  }
+},
+{
+  "type": "way",
+  "id": 698870103,
+  "center": {
+    "lat": 51.4124061,
+    "lon": 7.4551255
+  },
+  "tags": {
+    "frequency": "50",
+    "location": "outdoor",
+    "power": "substation",
+    "substation": "generation",
+    "voltage": "110000"
+  }
+},
+{
+  "type": "way",
+  "id": 766566550,
+  "center": {
+    "lat": 51.4024647,
+    "lon": 7.4108601
+  },
+  "tags": {
+    "access": "no",
+    "location": "indoor",
+    "name": "Herdecke",
+    "operator": "ENERVIE Vernetzt GmbH",
+    "power": "substation",
+    "substation": "distribution",
+    "voltage": "110000"
+  }
+},
+{
+  "type": "way",
+  "id": 833272820,
+  "center": {
+    "lat": 51.5454524,
+    "lon": 7.4991688
+  },
+  "tags": {
+    "fixme": "name,operator",
+    "operator": "DONETZ",
+    "power": "substation",
+    "substation": "distribution",
+    "voltage": "110000"
+  }
+},
+{
+  "type": "way",
+  "id": 833272821,
+  "center": {
+    "lat": 51.5447768,
+    "lon": 7.4989698
+  },
+  "tags": {
+    "name": "Derne",
+    "power": "substation",
+    "substation": "distribution",
+    "voltage": "110000"
+  }
+},
+{
+  "type": "way",
+  "id": 1136275997,
+  "center": {
+    "lat": 51.4429623,
+    "lon": 7.3575831
+  },
+  "tags": {
+    "fixme": "name",
+    "power": "substation",
+    "substation": "transmission",
+    "voltage": "110000"
+  }
+},
+{
+  "type": "way",
+  "id": 1222217180,
+  "center": {
+    "lat": 51.4379402,
+    "lon": 7.5368568
+  },
+  "tags": {
+    "name": "Holzen",
+    "operator": "DEW21",
+    "power": "substation",
+    "substation": "distribution",
+    "voltage": "110000"
+  }
+},
+{
+  "type": "way",
+  "id": 1457106049,
+  "center": {
+    "lat": 51.4015320,
+    "lon": 7.5047312
+  },
+  "tags": {
+    "access": "no",
+    "location": "outdoor",
+    "name": "Garenfeld",
+    "operator": "ENERVIE Vernetzt",
+    "operator:wikidata": "Q124422786",
+    "operator:wikipedia": "de:Enervie",
+    "power": "substation",
+    "substation": "transmission",
+    "voltage": "110000",
+    "wikidata": "Q53055266"
+  }
+},
+{
+  "type": "way",
+  "id": 1460084299,
+  "center": {
+    "lat": 51.4575351,
+    "lon": 7.4175831
+  },
+  "tags": {
+    "access": "no",
+    "frequency": "50",
+    "location": "outdoor",
+    "name": "Station Kruckel",
+    "operator": "Amprion;Westnetz",
+    "power": "substation",
+    "substation": "transmission",
+    "voltage": "380000"
+  }
+},
+{
+  "type": "relation",
+  "id": 10705891,
+  "center": {
+    "lat": 51.4043107,
+    "lon": 7.5022647
+  },
+  "tags": {
+    "operator": "Amprion",
+    "operator:wikidata": "Q477318",
+    "power": "substation",
+    "type": "multipolygon",
+    "voltage": "380000"
+  }
+}
+
+  ]
+}

@@ -1,0 +1,762 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.4 2390de5a",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-27T18:46:17Z",
+    "timestamp_areas_base": "2026-10-27T18:30:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 667446936,
+  "lat": 51.5351340,
+  "lon": 7.4999614,
+  "tags": {
+    "frequency": "50",
+    "power": "transformer",
+    "source": "Yahoo",
+    "voltage:primary": "220000"
+  }
+},
+{
+  "type": "node",
+  "id": 667446937,
+  "lat": 51.5353035,
+  "lon": 7.4998497,
+  "tags": {
+    "frequency": "50",
+    "power": "transformer",
+    "source": "Yahoo",
+    "voltage:primary": "220000"
+  }
+},
+{
+  "type": "node",
+  "id": 667446938,
+  "lat": 51.5319722,
+  "lon": 7.5207216,
+  "tags": {
+    "devices": "1",
+    "frequency": "50",
+    "location": "outdoor",
+    "name": "Trafo 13",
+    "phases": "3",
+    "power": "transformer",
+    "rating": "40 MVA",
+    "source": "Yahoo",
+    "transformer": "distribution",
+    "voltage:primary": "110000",
+    "voltage:secondary": "10000"
+  }
+},
+{
+  "type": "node",
+  "id": 667446939,
+  "lat": 51.5320740,
+  "lon": 7.5210006,
+  "tags": {
+    "devices": "1",
+    "frequency": "50",
+    "location": "outdoor",
+    "name": "Trafo 12",
+    "phases": "3",
+    "power": "transformer",
+    "rating": "40 MVA",
+    "source": "Yahoo",
+    "transformer": "distribution",
+    "voltage:primary": "110000",
+    "voltage:secondary": "10000"
+  }
+},
+{
+  "type": "node",
+  "id": 667446940,
+  "lat": 51.5318798,
+  "lon": 7.5204644,
+  "tags": {
+    "devices": "1",
+    "frequency": "50",
+    "location": "outdoor",
+    "name": "Trafo 11",
+    "phases": "3",
+    "power": "transformer",
+    "rating": "40 MVA",
+    "source": "Yahoo",
+    "transformer": "distribution",
+    "voltage:primary": "110000",
+    "voltage:secondary": "10000"
+  }
+},
+{
+  "type": "node",
+  "id": 667446964,
+  "lat": 51.5332595,
+  "lon": 7.5243625,
+  "tags": {
+    "frequency": "50",
+    "name": "Trafo 212",
+    "power": "transformer",
+    "source": "Yahoo",
+    "transformer": "main",
+    "voltage:primary": "220000",
+    "voltage:secondary": "110000"
+  }
+},
+{
+  "type": "node",
+  "id": 667446995,
+  "lat": 51.5330140,
+  "lon": 7.5232448,
+  "tags": {
+    "frequency": "50",
+    "name": "Trafo 211",
+    "power": "transformer",
+    "source": "Yahoo",
+    "transformer": "main",
+    "voltage:primary": "220000",
+    "voltage:secondary": "110000"
+  }
+},
+{
+  "type": "node",
+  "id": 667472244,
+  "lat": 51.4565103,
+  "lon": 7.4163293,
+  "tags": {
+    "frequency": "50",
+    "power": "transformer",
+    "voltage:primary": "110000",
+    "voltage:secondary": "30000"
+  }
+},
+{
+  "type": "node",
+  "id": 667472245,
+  "lat": 51.4565473,
+  "lon": 7.4155575,
+  "tags": {
+    "frequency": "50",
+    "name": "Trafo 11S",
+    "power": "transformer",
+    "ref": "451",
+    "source": "Yahoo",
+    "transformer": "distribution",
+    "voltage:primary": "110000",
+    "voltage:secondary": "30000"
+  }
+},
+{
+  "type": "node",
+  "id": 667472283,
+  "lat": 51.4574067,
+  "lon": 7.4162722,
+  "tags": {
+    "frequency": "50",
+    "power": "transformer",
+    "transformer": "main",
+    "voltage:primary": "380000",
+    "voltage:secondary": "110000",
+    "voltage:tertiary": "30000"
+  }
+},
+{
+  "type": "node",
+  "id": 667472356,
+  "lat": 51.4578177,
+  "lon": 7.4160003,
+  "tags": {
+    "frequency": "50",
+    "name": "Trafo 411",
+    "power": "transformer",
+    "transformer": "main",
+    "voltage:primary": "380000",
+    "voltage:secondary": "110000",
+    "voltage:tertiary": "30000"
+  }
+},
+{
+  "type": "node",
+  "id": 667495212,
+  "lat": 51.5372494,
+  "lon": 7.5323769,
+  "tags": {
+    "frequency": "16.7",
+    "location": "outdoor",
+    "operator": "DB Energie GmbH",
+    "operator:wikidata": "Q1152043",
+    "operator:wikipedia": "de:DB Energie",
+    "phases": "1",
+    "power": "transformer",
+    "source": "aerial imagery",
+    "transformer": "traction",
+    "voltage:primary": "110000",
+    "voltage:secondary": "15000"
+  }
+},
+{
+  "type": "node",
+  "id": 667495215,
+  "lat": 51.5372143,
+  "lon": 7.5327010,
+  "tags": {
+    "frequency": "16.7",
+    "location": "outdoor",
+    "operator": "DB Energie GmbH",
+    "operator:wikidata": "Q1152043",
+    "operator:wikipedia": "de:DB Energie",
+    "phases": "1",
+    "power": "transformer",
+    "source": "aerial imagery",
+    "transformer": "main",
+    "voltage:primary": "110000",
+    "voltage:secondary": "15000"
+  }
+},
+{
+  "type": "node",
+  "id": 668882809,
+  "lat": 51.5425272,
+  "lon": 7.4550585,
+  "tags": {
+    "frequency": "50",
+    "inventory": "405",
+    "power": "transformer",
+    "ref": "12",
+    "source": "aerial imagery",
+    "voltage:primary": "110000",
+    "voltage:secondary": "10000"
+  }
+},
+{
+  "type": "node",
+  "id": 668882839,
+  "lat": 51.5423404,
+  "lon": 7.4545663,
+  "tags": {
+    "frequency": "50",
+    "power": "transformer",
+    "ref": "11",
+    "source": "aerial imagery",
+    "voltage:primary": "110000",
+    "voltage:secondary": "10000"
+  }
+},
+{
+  "type": "node",
+  "id": 668962390,
+  "lat": 51.5099487,
+  "lon": 7.4016142,
+  "tags": {
+    "frequency": "50",
+    "power": "transformer",
+    "source": "aerial imagery",
+    "voltage:primary": "110000",
+    "voltage:secondary": "30000"
+  }
+},
+{
+  "type": "node",
+  "id": 668962468,
+  "lat": 51.5100739,
+  "lon": 7.4021614,
+  "tags": {
+    "frequency": "50",
+    "power": "transformer",
+    "source": "aerial imagery",
+    "voltage:primary": "110000",
+    "voltage:secondary": "30000"
+  }
+},
+{
+  "type": "node",
+  "id": 670061959,
+  "lat": 51.4089830,
+  "lon": 7.4615849,
+  "tags": {
+    "frequency": "16.7",
+    "location": "outdoor",
+    "operator": "DB Energie GmbH",
+    "phases": "1",
+    "power": "transformer",
+    "rating": "10 MW",
+    "ref": "1",
+    "source": "Yahoo",
+    "transformer": "main",
+    "voltage:primary": "110000",
+    "voltage:secondary": "15000"
+  }
+},
+{
+  "type": "node",
+  "id": 670061962,
+  "lat": 51.4092671,
+  "lon": 7.4620497,
+  "tags": {
+    "frequency": "16.7",
+    "location": "outdoor",
+    "operator": "DB Energie GmbH",
+    "phases": "1",
+    "power": "transformer",
+    "rating": "10 MW",
+    "ref": "3",
+    "source": "Yahoo",
+    "transformer": "main",
+    "voltage:primary": "110000",
+    "voltage:secondary": "15000"
+  }
+},
+{
+  "type": "node",
+  "id": 670061965,
+  "lat": 51.4093596,
+  "lon": 7.4621993,
+  "tags": {
+    "frequency": "16.7",
+    "location": "outdoor",
+    "operator": "DB Energie GmbH",
+    "phases": "1",
+    "power": "transformer",
+    "rating": "10 MW",
+    "ref": "2",
+    "source": "Yahoo",
+    "transformer": "main",
+    "voltage:primary": "110000",
+    "voltage:secondary": "15000"
+  }
+},
+{
+  "type": "node",
+  "id": 676448350,
+  "lat": 51.4878423,
+  "lon": 7.3912781,
+  "tags": {
+    "frequency": "50",
+    "power": "transformer",
+    "source": "aerial imagery",
+    "voltage:primary": "110000",
+    "voltage:secondary": "10000"
+  }
+},
+{
+  "type": "node",
+  "id": 676634203,
+  "lat": 51.5336455,
+  "lon": 7.4331598,
+  "tags": {
+    "frequency": "50",
+    "inventory": "368",
+    "power": "transformer",
+    "ref": "11",
+    "source": "aerial imagery",
+    "voltage:primary": "110000",
+    "voltage:secondary": "20000"
+  }
+},
+{
+  "type": "node",
+  "id": 676634211,
+  "lat": 51.5338433,
+  "lon": 7.4330986,
+  "tags": {
+    "frequency": "50",
+    "inventory": "389",
+    "power": "transformer",
+    "ref": "12",
+    "source": "aerial imagery",
+    "voltage:primary": "110000",
+    "voltage:secondary": "20000"
+  }
+},
+{
+  "type": "node",
+  "id": 676634227,
+  "lat": 51.5436482,
+  "lon": 7.4456760,
+  "tags": {
+    "frequency": "50",
+    "power": "transformer",
+    "source": "aerial imagery",
+    "voltage:primary": "110000"
+  }
+},
+{
+  "type": "node",
+  "id": 724219294,
+  "lat": 51.4844844,
+  "lon": 7.5164055,
+  "tags": {
+    "power": "transformer",
+    "voltage:primary": "110000"
+  }
+},
+{
+  "type": "node",
+  "id": 724219344,
+  "lat": 51.4846059,
+  "lon": 7.5158267,
+  "tags": {
+    "power": "transformer",
+    "voltage:primary": "110000"
+  }
+},
+{
+  "type": "node",
+  "id": 724219375,
+  "lat": 51.4846587,
+  "lon": 7.5155456,
+  "tags": {
+    "power": "transformer",
+    "voltage:primary": "110000"
+  }
+},
+{
+  "type": "node",
+  "id": 724219399,
+  "lat": 51.4846876,
+  "lon": 7.5153751,
+  "tags": {
+    "power": "transformer",
+    "voltage:primary": "110000"
+  }
+},
+{
+  "type": "node",
+  "id": 724219427,
+  "lat": 51.4843777,
+  "lon": 7.5169637,
+  "tags": {
+    "power": "transformer",
+    "voltage:primary": "110000"
+  }
+},
+{
+  "type": "node",
+  "id": 725698638,
+  "lat": 51.5185450,
+  "lon": 7.4756502,
+  "tags": {
+    "power": "transformer",
+    "voltage:primary": "110000",
+    "voltage:secondary": "medium"
+  }
+},
+{
+  "type": "node",
+  "id": 725698642,
+  "lat": 51.5186571,
+  "lon": 7.4759149,
+  "tags": {
+    "power": "transformer",
+    "voltage:primary": "110000",
+    "voltage:secondary": "medium"
+  }
+},
+{
+  "type": "node",
+  "id": 725698646,
+  "lat": 51.5187278,
+  "lon": 7.4760921,
+  "tags": {
+    "power": "transformer",
+    "voltage:primary": "110000",
+    "voltage:secondary": "medium"
+  }
+},
+{
+  "type": "node",
+  "id": 811342777,
+  "lat": 51.4458216,
+  "lon": 7.3152342,
+  "tags": {
+    "frequency": "50",
+    "name": "Trafo 412",
+    "operator": "RWE",
+    "operator:wikidata": "Q138133",
+    "power": "transformer",
+    "transformer": "main",
+    "voltage:primary": "380000",
+    "voltage:secondary": "110000"
+  }
+},
+{
+  "type": "node",
+  "id": 1013004706,
+  "lat": 51.4457262,
+  "lon": 7.3148719,
+  "tags": {
+    "frequency": "50",
+    "name": "Trafo 411",
+    "operator": "RWE",
+    "operator:wikidata": "Q138133",
+    "power": "transformer",
+    "transformer": "main",
+    "voltage:primary": "380000",
+    "voltage:secondary": "110000"
+  }
+},
+{
+  "type": "node",
+  "id": 1305717825,
+  "lat": 51.4018422,
+  "lon": 7.5053706,
+  "tags": {
+    "power": "transformer",
+    "voltage:primary": "110000",
+    "voltage:secondary": "10000"
+  }
+},
+{
+  "type": "node",
+  "id": 1305717828,
+  "lat": 51.4015042,
+  "lon": 7.5058678,
+  "tags": {
+    "power": "transformer",
+    "voltage:primary": "220000",
+    "voltage:secondary": "110000"
+  }
+},
+{
+  "type": "node",
+  "id": 1305717830,
+  "lat": 51.4012642,
+  "lon": 7.5062013,
+  "tags": {
+    "name": "U202",
+    "power": "transformer",
+    "voltage:primary": "220000",
+    "voltage:secondary": "110000"
+  }
+},
+{
+  "type": "node",
+  "id": 1305717831,
+  "lat": 51.4010432,
+  "lon": 7.5064894,
+  "tags": {
+    "name": "U201",
+    "power": "transformer",
+    "voltage:primary": "220000",
+    "voltage:secondary": "110000"
+  }
+},
+{
+  "type": "node",
+  "id": 1306432039,
+  "lat": 51.4008462,
+  "lon": 7.5067641,
+  "tags": {
+    "power": "transformer"
+  }
+},
+{
+  "type": "node",
+  "id": 1691598996,
+  "lat": 51.4450859,
+  "lon": 7.3157779,
+  "tags": {
+    "power": "transformer",
+    "transformer": "distribution",
+    "voltage:primary": "110000"
+  }
+},
+{
+  "type": "node",
+  "id": 1874818234,
+  "lat": 51.5106645,
+  "lon": 7.4003255,
+  "tags": {
+    "frequency": "16.7",
+    "location": "outdoor",
+    "operator": "DB Energie",
+    "operator:wikidata": "Q1152043",
+    "operator:wikipedia": "de:DB Energie",
+    "phases": "1",
+    "power": "transformer",
+    "transformer": "main",
+    "voltage:primary": "110000",
+    "voltage:secondary": "15000"
+  }
+},
+{
+  "type": "node",
+  "id": 1874818235,
+  "lat": 51.5107725,
+  "lon": 7.4008542,
+  "tags": {
+    "frequency": "16.7",
+    "location": "outdoor",
+    "operator": "DB Energie",
+    "operator:wikidata": "Q1152043",
+    "operator:wikipedia": "de:DB Energie",
+    "phases": "1",
+    "power": "transformer",
+    "transformer": "main",
+    "voltage:primary": "110000",
+    "voltage:secondary": "15000"
+  }
+},
+{
+  "type": "node",
+  "id": 3504077821,
+  "lat": 51.4428882,
+  "lon": 7.3576999,
+  "tags": {
+    "colour": "gray",
+    "image": "https://web.archive.org/web/20161025162256if_/https://d1cuyjsrcm0gby.cloudfront.net/0VKVvQgI87clOPI6bkAzlA/thumb-2048.jpg",
+    "image:creator": "Reclus",
+    "image:license": "CC BY-SA 4.0",
+    "image:license:wikidata": "Q18199165",
+    "location": "outdoor",
+    "mapillary": "288317469433382",
+    "material": "metal",
+    "power": "transformer",
+    "ref": "U2",
+    "voltage:primary": "110000",
+    "voltage:secondary": "10000"
+  }
+},
+{
+  "type": "node",
+  "id": 3504077826,
+  "lat": 51.4429130,
+  "lon": 7.3573785,
+  "tags": {
+    "colour": "gray",
+    "location": "outdoor",
+    "power": "transformer",
+    "ref": "U1",
+    "voltage:primary": "110000",
+    "voltage:secondary": "10000"
+  }
+},
+{
+  "type": "node",
+  "id": 8442399385,
+  "lat": 51.4571358,
+  "lon": 7.4164273,
+  "tags": {
+    "frequency": "50",
+    "power": "transformer",
+    "transformer": "main",
+    "voltage:primary": "380000",
+    "voltage:secondary": "110000"
+  }
+},
+{
+  "type": "node",
+  "id": 9142716247,
+  "lat": 51.4124083,
+  "lon": 7.4552919,
+  "tags": {
+    "power": "transformer",
+    "voltage:primary": "110000"
+  }
+},
+{
+  "type": "node",
+  "id": 9142716248,
+  "lat": 51.4123766,
+  "lon": 7.4550074,
+  "tags": {
+    "power": "transformer",
+    "voltage:primary": "110000"
+  }
+},
+{
+  "type": "node",
+  "id": 9142716254,
+  "lat": 51.4105863,
+  "lon": 7.4527287,
+  "tags": {
+    "power": "transformer"
+  }
+},
+{
+  "type": "node",
+  "id": 10170917091,
+  "lat": 51.4451048,
+  "lon": 7.3158830,
+  "tags": {
+    "power": "transformer",
+    "transformer": "distribution"
+  }
+},
+{
+  "type": "node",
+  "id": 10536899316,
+  "lat": 51.4017789,
+  "lon": 7.5054577,
+  "tags": {
+    "power": "transformer",
+    "voltage:primary": "110000",
+    "voltage:secondary": "10000"
+  }
+},
+{
+  "type": "node",
+  "id": 10536899319,
+  "lat": 51.4019073,
+  "lon": 7.5052836,
+  "tags": {
+    "power": "transformer",
+    "voltage:primary": "110000",
+    "voltage:secondary": "10000"
+  }
+},
+{
+  "type": "node",
+  "id": 11185201249,
+  "lat": 51.5454693,
+  "lon": 7.4989386,
+  "tags": {
+    "power": "transformer"
+  }
+},
+{
+  "type": "node",
+  "id": 11335601407,
+  "lat": 51.4380724,
+  "lon": 7.5366074,
+  "tags": {
+    "power": "transformer",
+    "ref": "460",
+    "voltage:primary": "110000",
+    "voltage:secondary": "30000"
+  }
+},
+{
+  "type": "node",
+  "id": 11335601423,
+  "lat": 51.4378309,
+  "lon": 7.5372075,
+  "tags": {
+    "power": "transformer",
+    "ref": "2659",
+    "voltage:primary": "30000",
+    "voltage:secondary": "10000"
+  }
+},
+{
+  "type": "node",
+  "id": 14322554783,
+  "lat": 51.4917057,
+  "lon": 7.3006612,
+  "tags": {
+    "power": "transformer"
+  }
+},
+{
+  "type": "node",
+  "id": 14322554786,
+  "lat": 51.4915034,
+  "lon": 7.3000463,
+  "tags": {
+    "power": "transformer"
+  }
+}
+
+  ]
+}

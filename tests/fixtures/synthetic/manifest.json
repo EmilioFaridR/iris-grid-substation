@@ -1,0 +1,30 @@
+{
+  "run_id": "synthetic-fixture",
+  "source": "SYNTHETIC fixture (tests/fixtures/synthetic/build_fixture.py)",
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "bbox": "50.9,6.9,51.3,7.1",
+  "region_iso": null,
+  "status": "success",
+  "tiles": [
+    {
+      "tile_id": "tile_a",
+      "status": "ok",
+      "file": "tile_a.json",
+      "sha256": "1daf765582f5208a6d6391dc398e3fd78409c2fc4ed157db3820704452977221",
+      "bytes": 13691,
+      "element_count": 39,
+      "timestamp_osm_base": "2026-10-27T18:00:00Z",
+      "timestamp_areas_base": "2026-10-27T17:30:00Z"
+    },
+    {
+      "tile_id": "tile_b",
+      "status": "ok",
+      "file": "tile_b.json",
+      "sha256": "45333f803b59a3e7698522732ccff4eeb423ea1649d01baa87ac1245399ea188",
+      "bytes": 1214,
+      "element_count": 3,
+      "timestamp_osm_base": "2026-10-27T18:00:00Z",
+      "timestamp_areas_base": "2026-10-27T17:30:00Z"
+    }
+  ]
+}

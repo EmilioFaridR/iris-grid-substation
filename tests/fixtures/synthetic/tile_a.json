@@ -1,0 +1,925 @@
+{
+ "version": 0.6,
+ "generator": "synthetic",
+ "osm3s": {
+  "timestamp_osm_base": "2026-10-27T18:00:00Z",
+  "timestamp_areas_base": "2026-10-27T17:30:00Z",
+  "copyright": "SYNTHETIC test data modelled on OpenStreetMap tagging (ODbL schema)."
+ },
+ "elements": [
+  {
+   "type": "way",
+   "id": 900001,
+   "nodes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "geometry": [
+    {
+     "lat": 50.99955,
+     "lon": 6.9993
+    },
+    {
+     "lat": 50.99955,
+     "lon": 7.0007
+    },
+    {
+     "lat": 51.00045,
+     "lon": 7.0007
+    },
+    {
+     "lat": 51.00045,
+     "lon": 6.9993
+    },
+    {
+     "lat": 50.99955,
+     "lon": 6.9993
+    }
+   ],
+   "tags": {
+    "power": "substation",
+    "name": "Station Alpha",
+    "operator": "Amprion",
+    "substation": "transmission",
+    "voltage": "220000;110000",
+    "frequency": "50"
+   }
+  },
+  {
+   "type": "node",
+   "id": 910001,
+   "lat": 51.0001,
+   "lon": 6.9997,
+   "tags": {
+    "power": "transformer",
+    "rating": "40 MVA",
+    "voltage:primary": "110000",
+    "voltage:secondary": "10000"
+   }
+  },
+  {
+   "type": "node",
+   "id": 910002,
+   "lat": 51.0001,
+   "lon": 7.0,
+   "tags": {
+    "power": "transformer",
+    "rating": "40 MVA",
+    "voltage:primary": "110000",
+    "voltage:secondary": "10000"
+   }
+  },
+  {
+   "type": "node",
+   "id": 910003,
+   "lat": 51.0001,
+   "lon": 7.0003,
+   "tags": {
+    "power": "transformer",
+    "rating": "40 MVA",
+    "voltage:primary": "110000",
+    "voltage:secondary": "10000"
+   }
+  },
+  {
+   "type": "node",
+   "id": 910004,
+   "lat": 50.9997,
+   "lon": 6.9998,
+   "tags": {
+    "power": "transformer",
+    "transformer": "main",
+    "voltage:primary": "220000",
+    "voltage:secondary": "110000"
+   }
+  },
+  {
+   "type": "node",
+   "id": 910005,
+   "lat": 50.9997,
+   "lon": 7.0002,
+   "tags": {
+    "power": "transformer",
+    "transformer": "main",
+    "voltage:primary": "220000",
+    "voltage:secondary": "110000"
+   }
+  },
+  {
+   "type": "way",
+   "id": 900002,
+   "nodes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "geometry": [
+    {
+     "lat": 51.00955,
+     "lon": 6.9993
+    },
+    {
+     "lat": 51.00955,
+     "lon": 7.0007
+    },
+    {
+     "lat": 51.01045,
+     "lon": 7.0007
+    },
+    {
+     "lat": 51.01045,
+     "lon": 6.9993
+    },
+    {
+     "lat": 51.00955,
+     "lon": 6.9993
+    }
+   ],
+   "tags": {
+    "power": "substation",
+    "name": "Station Beta",
+    "operator": "Westnetz",
+    "voltage": "110000"
+   }
+  },
+  {
+   "type": "node",
+   "id": 910011,
+   "lat": 51.0101,
+   "lon": 6.9998,
+   "tags": {
+    "power": "transformer",
+    "rating": "40 MVA",
+    "voltage:primary": "110000",
+    "voltage:secondary": "20000"
+   }
+  },
+  {
+   "type": "node",
+   "id": 910012,
+   "lat": 51.0101,
+   "lon": 7.0002,
+   "tags": {
+    "power": "transformer",
+    "rating": "40MVA",
+    "voltage:primary": "110000",
+    "voltage:secondary": "20000"
+   }
+  },
+  {
+   "type": "node",
+   "id": 900101,
+   "lat": 51.01,
+   "lon": 7.0,
+   "tags": {
+    "power": "substation",
+    "name": "Beta",
+    "voltage": "110000"
+   }
+  },
+  {
+   "type": "way",
+   "id": 900003,
+   "nodes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "geometry": [
+    {
+     "lat": 51.01955,
+     "lon": 6.9993
+    },
+    {
+     "lat": 51.01955,
+     "lon": 7.0007
+    },
+    {
+     "lat": 51.02045,
+     "lon": 7.0007
+    },
+    {
+     "lat": 51.02045,
+     "lon": 6.9993
+    },
+    {
+     "lat": 51.01955,
+     "lon": 6.9993
+    }
+   ],
+   "tags": {
+    "power": "substation",
+    "name": "Station Gamma",
+    "operator": "DONetz",
+    "voltage": "110000"
+   }
+  },
+  {
+   "type": "node",
+   "id": 910021,
+   "lat": 51.0201,
+   "lon": 6.9998,
+   "tags": {
+    "power": "transformer",
+    "rating": "31,5 MVA",
+    "voltage:primary": "110000",
+    "voltage:secondary": "10000"
+   }
+  },
+  {
+   "type": "node",
+   "id": 910022,
+   "lat": 51.0201,
+   "lon": 7.0002,
+   "tags": {
+    "power": "transformer",
+    "voltage:primary": "110000",
+    "voltage:secondary": "10000"
+   }
+  },
+  {
+   "type": "node",
+   "id": 910023,
+   "lat": 51.0198,
+   "lon": 7.0,
+   "tags": {
+    "power": "transformer"
+   }
+  },
+  {
+   "type": "way",
+   "id": 900004,
+   "nodes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "geometry": [
+    {
+     "lat": 51.02955,
+     "lon": 6.9993
+    },
+    {
+     "lat": 51.02955,
+     "lon": 7.0007
+    },
+    {
+     "lat": 51.03045,
+     "lon": 7.0007
+    },
+    {
+     "lat": 51.03045,
+     "lon": 6.9993
+    },
+    {
+     "lat": 51.02955,
+     "lon": 6.9993
+    }
+   ],
+   "tags": {
+    "power": "substation",
+    "name": "Unterwerk Delta",
+    "operator": "DB Energie",
+    "substation": "traction",
+    "voltage": "110000;15000",
+    "frequency": "16.7"
+   }
+  },
+  {
+   "type": "node",
+   "id": 910031,
+   "lat": 51.0301,
+   "lon": 6.9998,
+   "tags": {
+    "power": "transformer",
+    "rating": "10 MW",
+    "transformer": "traction",
+    "frequency": "16.7",
+    "voltage:primary": "110000",
+    "voltage:secondary": "15000"
+   }
+  },
+  {
+   "type": "node",
+   "id": 910032,
+   "lat": 51.0301,
+   "lon": 7.0002,
+   "tags": {
+    "power": "transformer",
+    "rating": "10 MW",
+    "transformer": "traction",
+    "frequency": "16.7",
+    "voltage:primary": "110000",
+    "voltage:secondary": "15000"
+   }
+  },
+  {
+   "type": "way",
+   "id": 900014,
+   "nodes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "geometry": [
+    {
+     "lat": 51.02955,
+     "lon": 7.0008
+    },
+    {
+     "lat": 51.02955,
+     "lon": 7.0022
+    },
+    {
+     "lat": 51.03045,
+     "lon": 7.0022
+    },
+    {
+     "lat": 51.03045,
+     "lon": 7.0008
+    },
+    {
+     "lat": 51.02955,
+     "lon": 7.0008
+    }
+   ],
+   "tags": {
+    "power": "substation",
+    "name": "Station Omikron",
+    "operator": "Westnetz",
+    "voltage": "110000",
+    "frequency": "50"
+   }
+  },
+  {
+   "type": "way",
+   "id": 900005,
+   "nodes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "geometry": [
+    {
+     "lat": 51.03955,
+     "lon": 6.9993
+    },
+    {
+     "lat": 51.03955,
+     "lon": 7.0007
+    },
+    {
+     "lat": 51.04045,
+     "lon": 7.0007
+    },
+    {
+     "lat": 51.04045,
+     "lon": 6.9993
+    },
+    {
+     "lat": 51.03955,
+     "lon": 6.9993
+    }
+   ],
+   "tags": {
+    "power": "substation",
+    "name": "Station Epsilon",
+    "operator": "Amprion",
+    "voltage": "380000",
+    "rating": "300 MVA"
+   }
+  },
+  {
+   "type": "node",
+   "id": 910041,
+   "lat": 51.0401,
+   "lon": 7.0,
+   "tags": {
+    "power": "transformer",
+    "rating": "250 MVA",
+    "voltage:primary": "380000",
+    "voltage:secondary": "110000"
+   }
+  },
+  {
+   "type": "way",
+   "id": 900006,
+   "nodes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "geometry": [
+    {
+     "lat": 51.04955,
+     "lon": 6.9993
+    },
+    {
+     "lat": 51.04955,
+     "lon": 7.0007
+    },
+    {
+     "lat": 51.05045,
+     "lon": 7.0007
+    },
+    {
+     "lat": 51.05045,
+     "lon": 6.9993
+    },
+    {
+     "lat": 51.04955,
+     "lon": 6.9993
+    }
+   ],
+   "tags": {
+    "power": "substation",
+    "name": "Station Zeta",
+    "operator": "Westnetz",
+    "voltage": "110000"
+   }
+  },
+  {
+   "type": "way",
+   "id": 900007,
+   "nodes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "geometry": [
+    {
+     "lat": 51.04955,
+     "lon": 7.0009
+    },
+    {
+     "lat": 51.04955,
+     "lon": 7.0023
+    },
+    {
+     "lat": 51.05045,
+     "lon": 7.0023
+    },
+    {
+     "lat": 51.05045,
+     "lon": 7.0009
+    },
+    {
+     "lat": 51.04955,
+     "lon": 7.0009
+    }
+   ],
+   "tags": {
+    "power": "substation",
+    "name": "Station Zeta",
+    "operator": "Amprion",
+    "voltage": "380000"
+   }
+  },
+  {
+   "type": "node",
+   "id": 910051,
+   "lat": 51.0501,
+   "lon": 7.0016,
+   "tags": {
+    "power": "transformer",
+    "rating": "500000 kVA",
+    "voltage:primary": "380000",
+    "voltage:secondary": "110000"
+   }
+  },
+  {
+   "type": "node",
+   "id": 910052,
+   "lat": 51.0501,
+   "lon": 7.0,
+   "tags": {
+    "power": "transformer",
+    "voltage:primary": "110000",
+    "voltage:secondary": "30000"
+   }
+  },
+  {
+   "type": "way",
+   "id": 900008,
+   "nodes": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "geometry": [
+    {
+     "lat": 51.05955,
+     "lon": 6.9993
+    },
+    {
+     "lat": 51.05955,
+     "lon": 7.0007
+    },
+    {
+     "lat": 51.06045,
+     "lon": 7.0007
+    },
+    {
+     "lat": 51.06045,
+     "lon": 6.9993
+    }
+   ],
+   "tags": {
+    "power": "substation",
+    "name": "Station Eta",
+    "voltage": "110000"
+   }
+  },
+  {
+   "type": "way",
+   "id": 900009,
+   "nodes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "geometry": [
+    {
+     "lat": 51.06955,
+     "lon": 6.9993
+    },
+    {
+     "lat": 51.07045,
+     "lon": 7.0007
+    },
+    {
+     "lat": 51.06955,
+     "lon": 7.0007
+    },
+    {
+     "lat": 51.07045,
+     "lon": 6.9993
+    },
+    {
+     "lat": 51.06955,
+     "lon": 6.9993
+    }
+   ],
+   "tags": {
+    "power": "substation",
+    "name": "Station Theta",
+    "voltage": "110000"
+   }
+  },
+  {
+   "type": "node",
+   "id": 910061,
+   "lat": 51.07,
+   "lon": 7.0005,
+   "tags": {
+    "power": "transformer",
+    "rating": "63 MVA",
+    "voltage:primary": "110000",
+    "voltage:secondary": "10000"
+   }
+  },
+  {
+   "type": "relation",
+   "id": 900501,
+   "members": [
+    {
+     "type": "way",
+     "ref": 1,
+     "role": "outer",
+     "geometry": [
+      {
+       "lat": 51.07955,
+       "lon": 6.9993
+      },
+      {
+       "lat": 51.07955,
+       "lon": 7.0007
+      },
+      {
+       "lat": 51.08045,
+       "lon": 7.0007
+      }
+     ]
+    },
+    {
+     "type": "way",
+     "ref": 2,
+     "role": "outer",
+     "geometry": [
+      {
+       "lat": 51.08045,
+       "lon": 7.0007
+      },
+      {
+       "lat": 51.08045,
+       "lon": 6.9993
+      },
+      {
+       "lat": 51.07955,
+       "lon": 6.9993
+      }
+     ]
+    },
+    {
+     "type": "way",
+     "ref": 3,
+     "role": "inner",
+     "geometry": [
+      {
+       "lat": 51.0798875,
+       "lon": 6.999825
+      },
+      {
+       "lat": 51.0798875,
+       "lon": 7.000175
+      },
+      {
+       "lat": 51.0801125,
+       "lon": 7.000175
+      },
+      {
+       "lat": 51.0801125,
+       "lon": 6.999825
+      },
+      {
+       "lat": 51.0798875,
+       "lon": 6.999825
+      }
+     ]
+    }
+   ],
+   "tags": {
+    "type": "multipolygon",
+    "power": "substation",
+    "name": "Station Iota",
+    "operator": "Amprion",
+    "voltage": "380000",
+    "wikidata": "Q999001"
+   }
+  },
+  {
+   "type": "node",
+   "id": 910071,
+   "lat": 51.0803,
+   "lon": 6.9995,
+   "tags": {
+    "power": "transformer",
+    "rating": "2x400 MVA",
+    "voltage:primary": "380000",
+    "voltage:secondary": "220000"
+   }
+  },
+  {
+   "type": "way",
+   "id": 900010,
+   "nodes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "geometry": [
+    {
+     "lat": 51.08225,
+     "lon": 6.9993
+    },
+    {
+     "lat": 51.08225,
+     "lon": 7.0007
+    },
+    {
+     "lat": 51.08315,
+     "lon": 7.0007
+    },
+    {
+     "lat": 51.08315,
+     "lon": 6.9993
+    },
+    {
+     "lat": 51.08225,
+     "lon": 6.9993
+    }
+   ],
+   "tags": {
+    "power": "substation",
+    "name": "Iota Nord",
+    "voltage": "220000",
+    "wikidata": "Q999001"
+   }
+  },
+  {
+   "type": "way",
+   "id": 900011,
+   "nodes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "geometry": [
+    {
+     "lat": 51.08955,
+     "lon": 6.9993
+    },
+    {
+     "lat": 51.08955,
+     "lon": 7.0007
+    },
+    {
+     "lat": 51.09045,
+     "lon": 7.0007
+    },
+    {
+     "lat": 51.09045,
+     "lon": 6.9993
+    },
+    {
+     "lat": 51.08955,
+     "lon": 6.9993
+    }
+   ],
+   "tags": {
+    "power": "substation",
+    "name": "Station Kappa",
+    "voltage": "11000"
+   }
+  },
+  {
+   "type": "way",
+   "id": 900012,
+   "nodes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "geometry": [
+    {
+     "lat": 51.09955,
+     "lon": 6.9993
+    },
+    {
+     "lat": 51.09955,
+     "lon": 7.0007
+    },
+    {
+     "lat": 51.10045,
+     "lon": 7.0007
+    },
+    {
+     "lat": 51.10045,
+     "lon": 6.9993
+    },
+    {
+     "lat": 51.09955,
+     "lon": 6.9993
+    }
+   ],
+   "tags": {
+    "power": "substation",
+    "name": "Station Lambda",
+    "voltage": "110 kV"
+   }
+  },
+  {
+   "type": "node",
+   "id": 910082,
+   "lat": 51.1001,
+   "lon": 7.0,
+   "tags": {
+    "power": "transformer",
+    "voltage:primary": "110000",
+    "voltage:secondary": "medium"
+   }
+  },
+  {
+   "type": "node",
+   "id": 900102,
+   "lat": 51.11,
+   "lon": 7.0,
+   "tags": {
+    "power": "substation",
+    "name": "Station My",
+    "voltage": "380"
+   }
+  },
+  {
+   "type": "node",
+   "id": 900103,
+   "lat": 95.0,
+   "lon": 7.0,
+   "tags": {
+    "power": "substation",
+    "name": "Broken",
+    "voltage": "110000"
+   }
+  },
+  {
+   "type": "way",
+   "id": 900013,
+   "nodes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "geometry": [
+    {
+     "lat": 51.11955,
+     "lon": 6.9993
+    },
+    {
+     "lat": 51.11955,
+     "lon": 7.0007
+    },
+    {
+     "lat": 51.12045,
+     "lon": 7.0007
+    },
+    {
+     "lat": 51.12045,
+     "lon": 6.9993
+    },
+    {
+     "lat": 51.11955,
+     "lon": 6.9993
+    }
+   ],
+   "tags": {
+    "power": "substation",
+    "name": "Station Ny",
+    "voltage": "110000",
+    "disused": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 910081,
+   "lat": 51.2,
+   "lon": 7.0,
+   "tags": {
+    "power": "transformer",
+    "voltage:primary": "110000"
+   }
+  },
+  {
+   "type": "way",
+   "id": 900900,
+   "geometry": [
+    {
+     "lat": 51.12955,
+     "lon": 6.9993
+    },
+    {
+     "lat": 51.12955,
+     "lon": 7.0007
+    },
+    {
+     "lat": 51.13045,
+     "lon": 7.0007
+    },
+    {
+     "lat": 51.13045,
+     "lon": 6.9993
+    },
+    {
+     "lat": 51.12955,
+     "lon": 6.9993
+    }
+   ],
+   "tags": {
+    "power": "line",
+    "voltage": "110000"
+   }
+  },
+  {
+   "tags": {
+    "power": "substation"
+   }
+  }
+ ]
+}

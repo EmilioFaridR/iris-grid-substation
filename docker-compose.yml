@@ -1,0 +1,53 @@
+name: iris-grid-substation
+
+x-db-url: &db_url postgresql+psycopg://${POSTGRES_USER:-iris}:${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env (copy .env.example)}@db:5432/${POSTGRES_DB:-iris_staging_db}
+
+services:
+  db:
+    image: postgis/postgis:17-3.5          # same image as the IRIS core repo
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-iris_staging_db}
+      POSTGRES_USER: ${POSTGRES_USER:-iris}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env (copy .env.example)}
+    # No host port by default: app and tests reach the database on the compose
+    # network, so the stack never collides with a local Postgres or with ports
+    # reserved by Windows/Hyper-V. To inspect the data from the host (psql,
+    # DBeaver, QGIS) add the override:  -f docker-compose.yml -f docker-compose.db-port.yml
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  app:
+    build: .
+    env_file: .env
+    environment:
+      IRIS_DATABASE_URL: *db_url
+    # host uid so files written to ./data and ./reports belong to you (Linux)
+    user: "${IRIS_UID:-1000}:${IRIS_GID:-1000}"
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - ./data:/app/data
+      - ./reports:/app/reports
+    # migrations first (creates schema iris_staging only), then the command
+    entrypoint: ["sh", "-c", "python main.py init-db && exec python main.py \"$$@\"", "--"]
+    command: ["all"]
+
+  tests:
+    build: .
+    profiles: ["test"]
+    environment:
+      IRIS_TEST_DATABASE_URL: *db_url
+    depends_on:
+      db:
+        condition: service_healthy
+    entrypoint: ["python", "-m", "pytest", "-p", "no:cacheprovider"]
+    command: ["-q"]
+
+volumes:
+  pgdata:

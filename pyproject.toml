@@ -1,0 +1,40 @@
+[project]
+name = "iris-grid-substation"
+version = "0.1.0"
+description = "IRIS Task 098 - geospatial inventory of 110/220/380 kV substations with observed vs inferred MVA (OpenStreetMap / Overpass)"
+readme = "README.md"
+requires-python = ">=3.11"
+# Runtime dependencies are pinned to exact versions so builds are reproducible.
+dependencies = [
+    "alembic==1.20.1",
+    "geoalchemy2==0.20.0",
+    "loguru==0.7.3",
+    "psycopg[binary]==3.3.6",
+    "pydantic==2.14.1",
+    "pydantic-settings==2.16.1",
+    "pyproj==3.8.0",
+    "requests==2.34.2",
+    "shapely==2.2.0",
+    "sqlalchemy==2.1.6",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==9.1.1",
+    "responses==0.26.3",
+]
+
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "integration: needs a PostGIS database (IRIS_TEST_DATABASE_URL); skipped otherwise",
+]
+addopts = "-ra"
+pythonpath = ["."]

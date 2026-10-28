@@ -1,0 +1,74 @@
+{
+ "version": 0.6,
+ "generator": "synthetic",
+ "osm3s": {
+  "timestamp_osm_base": "2026-10-27T18:00:00Z",
+  "timestamp_areas_base": "2026-10-27T17:30:00Z",
+  "copyright": "SYNTHETIC test data modelled on OpenStreetMap tagging (ODbL schema)."
+ },
+ "elements": [
+  {
+   "type": "way",
+   "id": 900002,
+   "nodes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "geometry": [
+    {
+     "lat": 51.00955,
+     "lon": 6.9993
+    },
+    {
+     "lat": 51.00955,
+     "lon": 7.0007
+    },
+    {
+     "lat": 51.01045,
+     "lon": 7.0007
+    },
+    {
+     "lat": 51.01045,
+     "lon": 6.9993
+    },
+    {
+     "lat": 51.00955,
+     "lon": 6.9993
+    }
+   ],
+   "tags": {
+    "power": "substation",
+    "name": "Station Beta",
+    "operator": "Westnetz",
+    "voltage": "110000"
+   }
+  },
+  {
+   "type": "node",
+   "id": 910011,
+   "lat": 51.0101,
+   "lon": 6.9998,
+   "tags": {
+    "power": "transformer",
+    "rating": "40 MVA",
+    "voltage:primary": "110000",
+    "voltage:secondary": "20000"
+   }
+  },
+  {
+   "type": "node",
+   "id": 910012,
+   "lat": 51.0101,
+   "lon": 7.0002,
+   "tags": {
+    "power": "transformer",
+    "rating": "40MVA",
+    "voltage:primary": "110000",
+    "voltage:secondary": "20000"
+   }
+  }
+ ]
+}
